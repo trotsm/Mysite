@@ -1,0 +1,11 @@
+{% extends "mainApp/wrapper.html" %}
+
+{% block content %}
+    {% for post in object_list %}
+    <a href="/news/{{post.id}}"><h5>{{ post.title }}</h5></a>
+    <h6>{{ post.date|date:"d-m-Y"}}</h6>
+    {% endfor %}
+{% endblock %}
+
+
+

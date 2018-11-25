@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Птахи України</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+</head>
+<body>
+
+  <div class="jumbotron">
+    <div class="container">
+    <p>
+        <a href="/" class="btn btn-success btn-lg">Головна сторінка</a>
+        <a href="/news" class="btn btn-primary btn-lg">Детальніше &raquo;</a>
+        <a href="/contact" class="btn btn-info btn-lg">Контакти</a>
+      </p>
+      {% block content %}
+      {% endblock %}
+
+    </div>
+  <div class="container">
+    <img src="{% static 'mainApp/images/birds-logo.png' %}" >
+    <hr>
+    &copy; NeedApps 2018
+  </div>
+  </div>
+
+</body>
+</html>
+
