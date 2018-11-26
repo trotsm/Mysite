@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Птахи України</title>
+
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+  <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+
+</head>
+<body>
+<header class="header">
+    <img src="{% static 'mainApp/images/birds-logo.png' %}" alt="logo" class="logo">
+</header>
+
+<nav class="nav">
+    <ul class="menu">
+        <li><a href="/">Головна</a></li>
+{% comment %}        <li class="sub-menu-trigger">
+            <a href="#" >galleries</a>
+            <ul class="sub-menu">
+                <li><a href="#">item1</a></li>
+                <li><a href="#">item2</a></li>
+                <li><a href="#">item3</a></li>
+                <li><a href="#">item4</a></li>
+                <li><a href="#">item5</a></li>
+                <li><a href="#">item6</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#">features</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">contact</a></li>
+         <li><a href="/contact">Контакти</a></li>
+         {% endcomment %}
+        <li><a href="/news">Детальніше</a></li>
+
+    </ul>
+</nav>
+</body>
+</html>

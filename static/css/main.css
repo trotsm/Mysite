@@ -1,0 +1,188 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.header {
+    height: 75px;
+    background-color: #343434;
+    padding: 10px 0;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+.logo {
+
+    display: block;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #343434;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+.menu {
+    background-color: inherit;
+}
+
+.menu li {
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.menu > li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu > li:hover {
+    background-color: #505050;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.menu .sub-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    background-color: #3d3d3d;
+    width: 150px;
+
+}
+
+.menu .sub-menu > li {
+    padding: 4px 8px;
+}
+
+.menu .sub-menu > a {
+    text-transform: unset;
+}
+
+.menu .sub-menu > li:hover {
+    background-color: #343434;
+}
+
+.menu .sub-menu-trigger {
+    position: relative;
+}
+
+.content {
+    min-height: calc(100vh - 114px);
+    background-color: #4e4e4e;
+}
+
+.mainText{
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 40px 120px 40px 40px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.footer{
+    background-color: #343434;
+    padding: 10px 0;
+    border-bottom: 1px solid #1f1f1f;
+    text-align: center;
+}
+.footerText{
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+
+}
+
+.item {
+    width: 500px; /* or whatever is required */
+    text-align: center; /* ensures the image is always in the h-middle */
+    overflow: hidden; /* hide the cropped portion */
+}
+
+.item img {
+    position: relative; /* allows repositioning */
+    left: 100%; /* move the whole width of the image to the right */
+    margin-left: -200%; /* magic! */
+}
+
+.thumb-post {
+    width: 100%; /* or whatever is required */
+    text-align: center; /* ensures the image is always in the h-middle */
+    overflow: hidden; /* hide the cropped portion */
+}
+
+.thumb-post img {
+    position: relative; /* allows repositioning */
+    left: 100%; /* move the whole width of the image to the right */
+    margin-left: -200%; /* magic! */
+}
+/*Responsive image grid*/
+
+/*.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+!* Create four equal columns that sits next to each other *!
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+!* Responsive layout - makes a two column-layout instead of four columns *!
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+!* Responsive layout - makes the two columns stack on top of each other instead of next to each other *!
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}*/
+
+
