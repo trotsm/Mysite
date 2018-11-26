@@ -1,11 +1,13 @@
 html {
     box-sizing: border-box;
+    position: relative;
+    min-height: 100%;
 }
 
-body {
+.body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0 0 100px;
 }
-
 * {
     box-sizing: inherit;
 }
@@ -21,6 +23,18 @@ ul {
     background-color: #343434;
     padding: 10px 0;
     border-bottom: 1px solid #1f1f1f;
+}
+
+.footer{
+    background-color: #343434;
+    border-bottom: 1px solid #1f1f1f;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
 }
 
 .logo {
@@ -94,7 +108,6 @@ ul {
 
 .mainText{
     text-align: justify;
-
     color: white;
 }
 
@@ -110,26 +123,20 @@ ul {
   font-size: 30px;
   text-align: center;
 }
-.footer{
-    background-color: #343434;
-    padding: 10px 0;
-    border-bottom: 1px solid #1f1f1f;
-    text-align: center;
-}
-.footer-detail {
-    background-color: #343434;
-    /*padding: 10px 0;*/
-    border-bottom: 1px solid #1f1f1f;
-    text-align: center;
 
+/*.footer-detail {
+    background-color: #343434;
+    !*padding: 10px 0;*!
+    border-bottom: 1px solid #1f1f1f;
+    text-align: center;
     position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
 
 
-}
+}*/
 
 .footerText{
     padding: 10px;
@@ -218,7 +225,8 @@ ul {
 
 .image-detail {
     float: left;
-    margin: 10px;
+    margin-right: 50px;
+    margin-bottom: 25px;
 }
 
 .allcontentdetails {
