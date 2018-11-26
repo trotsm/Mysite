@@ -16,7 +16,7 @@
 </head>
 <body>
 <header class="header">
-    <img src="{% static 'mainApp/images/birds-logo.png' %}" alt="logo" class="logo">
+    <a href="../"> <img src="{% static 'mainApp/images/birds-logo.png' %}" alt="logo" class="logo"> </a>
 </header>
 
 <nav class="nav">
@@ -40,6 +40,7 @@
          <li><a href="/contact">Контакти</a></li>
          {% endcomment %}
         <li><a href="/news">Лісові та степові</a></li>
+        <li><a href="/waterfowl">Прибережні</a></li>
 
     </ul>
 </nav>
@@ -49,7 +50,7 @@
     {% for post in object_list %}
         {% if post.image != None %}
             <div class="item item-image">
-            <img src="{{ post.image.url }}" class="img-thumbnail" alt="" >
+            <a href="/news/{{post.id}}"><img src="{{ post.image.url }}" class="img-thumbnail" alt="" ></a>
         {% endif%}
         <div class="caption">
             <a href="/news/{{post.id}}"><h5 class="title-image">{{ post.title }}</h5></a>

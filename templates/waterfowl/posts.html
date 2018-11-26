@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,24 +46,19 @@
 </nav>
 
 <div class="content">
-    <div class="allcontentdetails">
-  <h2 style="text-align: center; color: white; padding-bottom: 15px">{{articles.title}}</h2>
-    <div class="image">
-            <img class="img-fluid img-thumbnail image-detail" style="width: 600px"  src="{{ articles.image.url }}">
-
-  {% comment %}<h6 class="text-info">Дата публікації:{{articles.date|date:"Y-m-d в H:i:s"}}</h6>{% endcomment %}
-  <p class="mainText">{{articles.post|safe}}</p>
+    <div class="masonry">
+    {% for post in object_list %}
+        {% if post.image != None %}
+            <div class="item item-image">
+            <a href="/waterfowl/{{post.id}}"><img src="{{ post.image.url }}" class="img-thumbnail" alt="" ></a>
+        {% endif%}
+        <div class="caption">
+            <a href="/waterfowl/{{post.id}}"><h5 class="title-image">{{ post.title }}</h5></a>
+            </div>
+    {% comment %}<h6>{{ post.date|date:"d-m-Y"}}</h6>{% endcomment %}
         </div>
-   </div>
-
-    <footer class="footer-detail">
-      <p class="footerText">
-          За детальною інформацією телефонуйте:<br> (066) 055 33 22<br>
-          &copy; NeedApps 2018
-      </p>
-
-  </footer>
-
+    {% endfor %}
+</div>
 </div>
 
 {% comment %}
@@ -76,14 +72,10 @@
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous">
-
 </script>
 <script src="{% static 'js/scripts.js' %}"></script>
 </body>
 </html>
-
-
-
 
 
 
