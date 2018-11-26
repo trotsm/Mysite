@@ -38,18 +38,30 @@
         <li><a href="#">contact</a></li>
          <li><a href="/contact">Контакти</a></li>
          {% endcomment %}
-        <li><a href="/news">Детальніше</a></li>
+        <li><a href="/news">Лісові та степові</a></li>
 
     </ul>
 </nav>
 
 <div class="content">
-  <h2 class="text-info">{{articles.title}}</h2>
+    <div class="allcontentdetails">
+  <h2 style="text-align: center; color: white; padding-bottom: 15px">{{articles.title}}</h2>
     <div class="image">
-            <img class="img-fluid" src="{{ articles.image.url }}">
-    </div>
-  <h6 class="text-info">Дата публікації:{{articles.date|date:"Y-m-d в H:i:s"}}</h6>
+            <img class="img-fluid img-thumbnail image-detail" style="width: 600px"  src="{{ articles.image.url }}">
+
+  {% comment %}<h6 class="text-info">Дата публікації:{{articles.date|date:"Y-m-d в H:i:s"}}</h6>{% endcomment %}
   <p class="mainText">{{articles.post|safe}}</p>
+        </div>
+   </div>
+
+    <footer class="footer-detail">
+      <p class="footerText">
+          За детальною інформацією телефонуйте:<br> (066) 055 33 22<br>
+          &copy; NeedApps 2018
+      </p>
+
+  </footer>
+
 </div>
 
 {% comment %}

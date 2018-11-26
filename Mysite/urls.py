@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('mainApp.urls')),
     path('news/', include('news.urls')),
+    path('waterfowl/', include('waterfowl.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 

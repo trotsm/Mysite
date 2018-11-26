@@ -2,137 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75eb3411-baec-452b-a2da-7e465b1c7982" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/acanthis_flammea1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/acrocephalus_agricola2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/acrocephalus_dumetorum1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/anthus_rubescens2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/anthus_rubescens2_YS1KTho.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/calcarius_lapponicus1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/migrations/0002_articles_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mainApp/images/photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mainApp/images/slider1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mainApp/images/slider2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mainApp/images/slider3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mainApp/includes/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BdfFontFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BlpImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BmpImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BufrStubImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ContainerIO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/CurImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/DcxImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/DdsImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/EpsImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ExifTags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FitsStubImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FliImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FontFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FpxImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FtexImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GbrImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GdImageFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GifImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GimpGradientFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GimpPaletteFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GribStubImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/Hdf5StubImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/IcnsImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/IcoImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/Image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageChops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageCms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageColor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageDraw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageDraw2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageEnhance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFilter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFont.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageGrab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMorph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageOps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImagePalette.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImagePath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageQt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageSequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageShow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageStat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageTk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageTransform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageWin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImtImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/IptcImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/Jpeg2KImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/JpegImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/JpegPresets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/McIdasImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MicImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MpegImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MpoImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MspImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/OleFileIO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PSDraw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PaletteFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PalmImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PcdImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PcfFontFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PcxImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PdfImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PdfParser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PixarImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PngImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PpmImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PsdImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PyAccess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/SgiImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/SpiderImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/SunImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TarIO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TgaImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TiffImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TiffTags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/WalImageFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/WebPImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/WmfImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/XVThumbImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/XbmImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/XpmImagePlugin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_binary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imaging.cp37-win32.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingcms.cp37-win32.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingft.cp37-win32.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingmath.cp37-win32.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingmorph.cp37-win32.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingtk.cp37-win32.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_tkinter_finder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_webp.cp37-win32.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-5.3.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-5.3.0.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-5.3.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-5.3.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-5.3.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-5.3.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-5.3.0.dist-info/zip-safe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mysite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mysite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/mainApp/images/acrocephalus_palustris.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/mainApp/images/acrocephalus_palustris2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mainApp/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mainApp/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/mainApp/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mainApp/wrapper.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/posts.html" afterDir="false" />
@@ -153,16 +30,20 @@
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="129" column="47" lean-forward="true" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
+              <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/news/posts.html">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/news/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="50" column="39" lean-forward="true" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+            <state relative-caret-position="490">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,8 +51,8 @@
       <file leaf-file-name="wrapper.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mainApp/wrapper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="27" />
+            <state relative-caret-position="181">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -202,15 +83,17 @@
         <option value="$PROJECT_DIR$/templates/mainApp/includes/some_html.html" />
         <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/news/models.py" />
-        <option value="$PROJECT_DIR$/Mysite/settings.py" />
-        <option value="$PROJECT_DIR$/Mysite/urls.py" />
         <option value="$PROJECT_DIR$/templates/mainApp/homepage.html" />
         <option value="$PROJECT_DIR$/templates/mainApp/includes/header.html" />
         <option value="$PROJECT_DIR$/templates/mainApp/includes/footer.html" />
-        <option value="$PROJECT_DIR$/templates/news/post.html" />
+        <option value="$PROJECT_DIR$/templates/forest-birds/posts.html" />
+        <option value="$PROJECT_DIR$/forest-birds/admin.py" />
+        <option value="$PROJECT_DIR$/templates/news/posts.html" />
         <option value="$PROJECT_DIR$/templates/mainApp/wrapper.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
-        <option value="$PROJECT_DIR$/templates/news/posts.html" />
+        <option value="$PROJECT_DIR$/templates/news/post.html" />
+        <option value="$PROJECT_DIR$/Mysite/settings.py" />
+        <option value="$PROJECT_DIR$/Mysite/urls.py" />
       </list>
     </option>
   </component>
@@ -250,26 +133,7 @@
             <path>
               <item name="Mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="mainApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="mainApp" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mysite" type="b2602c69:ProjectViewProjectNode" />
@@ -281,19 +145,17 @@
               <item name="Mysite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="mainApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="mainApp" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mysite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mysite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="waterfowl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,7 +165,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="acroc&#9;FILE&#9;file://C:/Users/TM/PycharmProjects/Mysite/static/mainApp/images/acrocephalus_palustris2.jpg" />
+    <property name="SearchEverywhereHistoryKey" value="birds&#9;FILE&#9;file://C:/Users/TM/PycharmProjects/Mysite/forest-birds&#10;acroc&#9;FILE&#9;file://C:/Users/TM/PycharmProjects/Mysite/static/mainApp/images/acrocephalus_palustris2.jpg" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Michael" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -374,6 +236,14 @@
       <option name="presentableId" value="Default" />
       <updated>1543090672261</updated>
     </task>
+    <task id="LOCAL-00001" summary="Website with slider on main page">
+      <created>1543231259944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543231259944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -387,21 +257,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.30501089" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.30501089" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.291939" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.30501089" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.291939" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -409,7 +281,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,21 +289,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Website with slider on main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Website with slider on main page" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/mainApp/basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mainApp/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -554,13 +415,6 @@
     <entry file="file://$PROJECT_DIR$/Test/__init__.py" />
     <entry file="file://$PROJECT_DIR$/qwerty/views.py" />
     <entry file="file://$PROJECT_DIR$/qwerty/urls.py" />
-    <entry file="file://$PROJECT_DIR$/news/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -579,16 +433,6 @@
           <folding>
             <element signature="e#0#629#1" />
             <element signature="e#630#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#629#1" />
           </folding>
         </state>
       </provider>
@@ -628,31 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mysite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#629#1" />
-            <element signature="e#630#672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="131" column="10" selection-start-line="131" selection-end-line="131" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mainApp/includes/footer.html" />
     <entry file="file://$PROJECT_DIR$/templates/mainApp/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -668,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mainApp/basic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -682,24 +494,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/management/commands/runserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/utils/autoreload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mainApp/wrapper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="27" />
+        <state relative-caret-position="181">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="129" column="47" lean-forward="true" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
+          <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news/posts.html">
+    <entry file="file://$PROJECT_DIR$/Mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="50" column="39" lean-forward="true" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        <state relative-caret-position="170">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#629#1" />
+            <element signature="e#630#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#629#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
