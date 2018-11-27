@@ -177,10 +177,45 @@ ul {
 }
 
 .item { /* Masonry bricks or child elements */
-
     display: inline-block;
     margin: 0 0 1em;
     width: 100%;
+}
+
+
+
+
+.item-image {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 85%;
+    left: 0;
+    width: 100%;
+}
+.title-image {
+    display: inline;
+    color: white;
+    text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    margin: 0 auto;
+    font-size:24px;
+}
+
+.image-detail {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+
+.allcontentdetails {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* Masonry on large screens */
@@ -201,40 +236,25 @@ ul {
 @media only screen and (max-width: 767px) {
   .masonry {
     column-count: 2;
-      padding: 5px;
   }
     .image-detail{
         margin: 0;
     }
+    .item-image{
+        margin: 0;
+        padding: 0;
+    }
+    .img-thumbnail{
+        margin: 0;
+        padding: 0;
+    }
+    .caption{
+        top:70%;
+    }
+    .title-image{
+        font-size: 14px;
+    }
+
+
 }
-
-.item-image {
-    position: relative;
-}
-
-.caption {
-    position: absolute;
-    top: 10%;
-    left: 0;
-    width: 100%;
-}
-.title-image {
-    color: white;
-    margin: 0 auto;
-}
-
-.image-detail {
-    float: left;
-    margin-right: 50px;
-    margin-bottom: 25px;
-}
-
-.allcontentdetails {
-    width: 80%;
-    margin: 0 auto;
-}
-
-
-
-
 

@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="75eb3411-baec-452b-a2da-7e465b1c7982" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/mainApp/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mainApp/wrapper.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/news/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/waterfowl/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waterfowl/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/waterfowl/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waterfowl/posts.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,41 +37,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="440">
+              <caret line="260" selection-start-line="260" selection-end-line="260" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/waterfowl/post.html">
+      <file leaf-file-name="posts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/news/posts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wrapper.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/mainApp/wrapper.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="250">
+              <caret line="55" column="93" selection-start-line="55" selection-start-column="93" selection-end-line="55" selection-end-column="93" />
               <folding>
-                <element signature="e#1071#1706#0#DjangoTemplate" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/news/post.html">
+      <file leaf-file-name="posts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/waterfowl/posts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="290">
+              <caret line="55" column="92" selection-start-line="55" selection-start-column="92" selection-end-line="55" selection-end-column="92" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,12 +111,12 @@
         <option value="$PROJECT_DIR$/waterfowl/urls.py" />
         <option value="$PROJECT_DIR$/waterfowl/admin.py" />
         <option value="$PROJECT_DIR$/Mysite/settings.py" />
+        <option value="$PROJECT_DIR$/templates/mainApp/wrapper.html" />
+        <option value="$PROJECT_DIR$/templates/news/post.html" />
+        <option value="$PROJECT_DIR$/templates/waterfowl/post.html" />
         <option value="$PROJECT_DIR$/templates/news/posts.html" />
         <option value="$PROJECT_DIR$/templates/waterfowl/posts.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
-        <option value="$PROJECT_DIR$/templates/waterfowl/post.html" />
-        <option value="$PROJECT_DIR$/templates/news/post.html" />
-        <option value="$PROJECT_DIR$/templates/mainApp/wrapper.html" />
       </list>
     </option>
   </component>
@@ -143,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,13 +150,12 @@
             <path>
               <item name="Mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mysite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="mainApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mysite" type="b2602c69:ProjectViewProjectNode" />
@@ -178,6 +173,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543266660692</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Good design of site 3">
+      <created>1543270947146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543270947146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -293,26 +296,26 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.30501089" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.30501089" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.30501089" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.291939" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32897604" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32897604" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.32897604" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,16 +328,10 @@
     <MESSAGE value="Website with slider on main page" />
     <MESSAGE value="Good design of site" />
     <MESSAGE value="Good design of site 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Good design of site 2" />
+    <MESSAGE value="Good design of site 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Good design of site 3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/mainApp/wrapper.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mainApp/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -468,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/waterfowl/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -496,9 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -509,9 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="3" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -535,30 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#629#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://fc011101-c4a0-40b4-953d-4cdd5fa3b073/schema/main/table/news_articles">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news/posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#844#1479#0#DjangoTemplate" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -569,41 +533,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/waterfowl/posts.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="102" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/waterfowl/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="-187">
+          <caret line="390" column="16" selection-start-line="390" selection-start-column="16" selection-end-line="390" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/mainApp/wrapper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="425">
+          <caret line="91" column="58" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
           <folding>
-            <element signature="e#1071#1706#0#DjangoTemplate" />
+            <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#629#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/waterfowl/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="55" column="93" selection-start-line="55" selection-start-column="93" selection-end-line="55" selection-end-column="93" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/waterfowl/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="55" column="92" selection-start-line="55" selection-start-column="92" selection-end-line="55" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="260" selection-start-line="260" selection-end-line="260" />
         </state>
       </provider>
     </entry>

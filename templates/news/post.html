@@ -38,7 +38,7 @@
         <li><a href="#">contact</a></li>
          <li><a href="/contact">Контакти</a></li>
          {% endcomment %}
-        <li><a href="/news">Лісові та степові</a></li>
+        <li><a href="/news">Лісові</a></li>
         <li><a href="/waterfowl">Прибережні</a></li>
 
     </ul>
@@ -51,7 +51,7 @@
             <img class="img-fluid img-thumbnail image-detail" style="width: 600px"  src="{{ articles.image.url }}">
 
   {% comment %}<h6 class="text-info">Дата публікації:{{articles.date|date:"Y-m-d в H:i:s"}}</h6>{% endcomment %}
-  <p class="mainText">{{articles.post|safe}}</p>
+  <p class="mainText">{{articles.post|safe|urlize}}</p>
         </div>
    </div>
 
