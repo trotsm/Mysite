@@ -46,13 +46,14 @@
 
 <div class="content">
     <div class="allcontentdetails">
-  <h2 style="text-align: center; color: white; padding-bottom: 15px">{{articles.title}}</h2>
+  <h2 style="text-align: center; color: white; padding-bottom:15px; padding-top: 10px">{{articles.title}}</h2>
     <div class="image">
-            <img class="img-fluid img-thumbnail image-detail" style="width: 600px"  src="{{ articles.image.url }}">
+<img class=" img-fluid image-detail"  src="{{ articles.image.url }}">
+<div class=" detail-text">{{articles.post|safe|urlize|linebreaksbr}}
+  <audio style="margin: 5px" controls><source src="{{ articles.audio.url }}" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
 
-  <p class="mainText">{{articles.post|safe|urlize|linebreaksbr}}</p>
-        </div>
+   </div>
    </div>
 
     <footer class="footer">

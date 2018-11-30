@@ -49,12 +49,10 @@
     <div class="masonry">
     {% for post in object_list %}
         {% if post.image != None %}
-            <div class="item item-image">
-            <a href="/news/{{post.id}}"><img src="{{ post.image.url }}" class="img-thumbnail" alt="" ></a>
+            <div class="imagebox item item-image">
+            <a href="/news/{{post.id}}"><img src="{{ post.image.url }}" class="category-banner img-fluid" alt="" ></a>
         {% endif%}
-        <div class="caption">
-            <a style="text-decoration: none" href="/news/{{post.id}}"><p class="title-image" >{{ post.title }}</p></a>
-       </div>
+            <a style="text-decoration: none" href="/news/{{post.id}}"><span class="imagebox-desc" >{{ post.title }}</span></a>
 
         </div>
     {% endfor %}
