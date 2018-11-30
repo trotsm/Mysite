@@ -18,7 +18,7 @@ from django.views.generic import ListView, DetailView
 from waterfowl.models import Articles
 
 urlpatterns = [
-    path('', ListView.as_view(queryset=Articles.objects.all().order_by("-date")[:20], template_name="waterfowl/posts.html")),
+    path('', ListView.as_view(queryset=Articles.objects.all(), template_name="waterfowl/posts.html")),
     re_path('^(?P<pk>\d+)$', DetailView.as_view(model=Articles, template_name="waterfowl/post.html"))
 
 ]

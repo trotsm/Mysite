@@ -236,6 +236,8 @@ ul {
 @media only screen and (max-width: 767px) {
   .masonry {
     column-count: 2;
+    padding: 1px;
+    column-gap: 2px;
   }
     .image-detail{
         margin: 0;
@@ -252,7 +254,7 @@ ul {
         top:70%;
     }
     .title-image{
-        font-size: 14px;
+        font-size: 16px;
     }
 
 
