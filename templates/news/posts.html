@@ -49,22 +49,14 @@
     <div class="masonry">
     {% for post in object_list %}
         {% if post.image != None %}
-            <div class="imagebox item item-image">
+            <div class="imagebox item">
             <a href="/news/{{post.id}}"><img src="{{ post.image.url }}" class="category-banner img-fluid" alt="" ></a>
         {% endif%}
             <a style="text-decoration: none" href="/news/{{post.id}}"><span class="imagebox-desc" >{{ post.title }}</span></a>
-
         </div>
     {% endfor %}
 </div>
 </div>
-
-{% comment %}
-      <p>
-        <a href="/" class="btn btn-success btn-lg">Головна сторінка</a>
-        <a href="/news" class="btn btn-primary btn-lg">Детальніше &raquo;</a>
-        <a href="/contact" class="btn btn-info btn-lg">Контакти</a>
-      </p>{% endcomment %}
 
 <script
     src="https://code.jquery.com/jquery-3.3.1.js"

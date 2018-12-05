@@ -1,11 +1,13 @@
 html {
     box-sizing: border-box;
+    position: relative;
+    min-height: 100%;
 }
 
-body {
+.body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0 0 100px;
 }
-
 * {
     box-sizing: inherit;
 }
@@ -23,8 +25,19 @@ ul {
     border-bottom: 1px solid #1f1f1f;
 }
 
-.logo {
+.footer{
+    background-color: #343434;
+    border-bottom: 1px solid #1f1f1f;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
 
+.logo {
     display: block;
     margin: 0 auto;
 }
@@ -78,7 +91,6 @@ ul {
 
 .menu .sub-menu > a {
     text-transform: unset;
-    /*??????????????????????????????????????????????????????????????????????????*/
 }
 
 .menu .sub-menu > li:hover {
@@ -94,6 +106,20 @@ ul {
     background-color: #4e4e4e;
 }
 
+.mainText{
+    text-align: justify;
+    color: white;
+}
+.detail-text{
+    text-align: justify;
+    color: white;
+    background-color: #343434;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #1f1f1f;
+
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -105,4 +131,173 @@ ul {
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+
+
+.footerText{
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+}
+
+.item {
+    width: 500px; /* or whatever is required */
+    text-align: center; /* ensures the image is always in the h-middle */
+    overflow: hidden; /* hide the cropped portion */
+}
+
+.item img {
+    position: relative; /* allows repositioning */
+    left: 100%; /* move the whole width of the image to the right */
+    margin-left: -200%; /* magic! */
+}
+
+.thumb-post {
+    width: 100%; /* or whatever is required */
+    text-align: center; /* ensures the image is always in the h-middle */
+    overflow: hidden; /* hide the cropped portion */
+}
+
+.thumb-post img {
+    position: relative; /* allows repositioning */
+    left: 100%; /* move the whole width of the image to the right */
+    margin-left: -200%; /* magic! */
+}
+
+.masonry { /* Masonry container */
+    column-count: 4;
+    column-gap: 1em;
+    padding: 20px;
+}
+
+.imagebox {
+  background: black;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.imagebox img {
+  opacity: 1;
+  transition: 0.5s opacity;
+}
+
+.imagebox .imagebox-desc {
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 0;
+  color: white;
+  font-size: 1.2em;
+  left: 0;
+  padding: 10px 15px;
+  position: absolute;
+  transition: 0.5s padding;
+  text-align: center;
+  width: 100%;
+}
+
+.imagebox:hover img {
+  opacity: 0.7;
+}
+
+.imagebox:hover .imagebox-desc {
+  padding-bottom: 10%;
+}
+
+.item { /* Masonry bricks or child elements */
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+.item-image {
+    position: relative;
+}
+
+.image-detail {
+    float: right;
+
+}
+
+.allcontentdetails {
+    padding:40px;
+}
+
+.carousel-left { width: 70%; float: right; }
+
+.detail-text{float: right; width: 30%;}
+
+
+/*slider on detail page*/
+.abreast .carousel-inner {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.abreast .item {
+  display: inline-block;
+  margin: 6px 4px 0 0;
+}
+.abreast .carousel-control,
+.abreast .carousel-indicators {
+  display: none;
+}
+
+
+
+/* end slider on detail page*/
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .masonry {
+        column-count: 3;
+        padding: 5px;
+        margin: 0;
+        column-gap: 5px;
+    }
+
+    .item-image {
+        margin: 0;
+        padding: 0;
+    }
+
+    .imagebox .imagebox-desc {
+        font-size: 16px;
+        padding: 2px 5px;
+
+    }
+    .carousel-left { width: 100%; }
+
+    .detail-text{width: 100%;}
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) {
+  .masonry {
+    column-count: 2;
+    padding: 1px;
+    margin:0;
+    column-gap: 2px;
+  }
+    .item-image{
+        margin: 0;
+        padding: 0;
+    }
+    .imagebox .imagebox-desc {
+        font-size: 16px;
+        padding: 2px 5px;
+}
+    .allcontentdetails {
+    padding:10px;
+}
+.carousel-left { width: 100%; }
+
+.detail-text{width: 100%;}
+
 }

@@ -8,14 +8,9 @@ html {
     font-family: 'Open Sans', sans-serif;
     margin: 0 0 100px;
 }
+
 * {
     box-sizing: inherit;
-}
-
-ul {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
 }
 
 .header {
@@ -25,9 +20,9 @@ ul {
     border-bottom: 1px solid #1f1f1f;
 }
 
-.footer{
+.footer {
     background-color: #343434;
-    border-bottom: 1px solid #1f1f1f;
+    border-top: 1px solid #1f1f1f;
     text-align: center;
     color: white;
     position: absolute;
@@ -37,9 +32,24 @@ ul {
     width: 100%;
 }
 
+.footerText {
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+}
+
 .logo {
     display: block;
     margin: 0 auto;
+}
+
+/*----------------
+navigation menu*/
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
 }
 
 .nav {
@@ -101,198 +111,145 @@ ul {
     position: relative;
 }
 
-.content {
-    min-height: calc(100vh - 114px);
+/*----------------
+end of navigation menu*/
+
+.content { /*all screen with background color*/
+    min-height: 100vh;
     background-color: #4e4e4e;
 }
 
-.mainText{
+.mainText { /* text on main page*/
     text-align: justify;
     color: white;
 }
-.detail-text{
-    text-align: justify;
-    color: white;
-    background-color: #343434;
-    width: 30%;
-    padding: 10px;
-    border: 1px solid #1f1f1f;
-}
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  padding: 40px 120px 40px 40px;
-}
-
-.grid-item {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-
-/*.footer-detail {
-    background-color: #343434;
-    !*padding: 10px 0;*!
-    border-bottom: 1px solid #1f1f1f;
-    text-align: center;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-
-
-}*/
-
-.footerText{
-    padding: 10px;
-    color: white;
-    margin: 0 auto;
-}
-
-.item {
-    width: 500px; /* or whatever is required */
-    text-align: center; /* ensures the image is always in the h-middle */
-    overflow: hidden; /* hide the cropped portion */
-}
-
-.item img {
-    position: relative; /* allows repositioning */
-    left: 100%; /* move the whole width of the image to the right */
-    margin-left: -200%; /* magic! */
-}
-
-.thumb-post {
-    width: 100%; /* or whatever is required */
-    text-align: center; /* ensures the image is always in the h-middle */
-    overflow: hidden; /* hide the cropped portion */
-}
-
-.thumb-post img {
-    position: relative; /* allows repositioning */
-    left: 100%; /* move the whole width of the image to the right */
-    margin-left: -200%; /* magic! */
-}
-
-.masonry { /* Masonry container */
+/*-------------------------
+masonry container - catalog*/
+.masonry {
     column-count: 4;
     column-gap: 1em;
     padding: 20px;
 }
 
 .imagebox {
-  background: black;
-  padding: 0px;
-  position: relative;
-  text-align: center;
-  width: 100%;
+    background: black;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 
 .imagebox img {
-  opacity: 1;
-  transition: 0.5s opacity;
+    opacity: 1;
+    transition: 0.5s opacity;
 }
 
 .imagebox .imagebox-desc {
-  background-color: rgba(0, 0, 0, 0.6);
-  bottom: 0;
-  color: white;
-  font-size: 1.2em;
-  left: 0;
-  padding: 10px 15px;
-  position: absolute;
-  transition: 0.5s padding;
-  text-align: center;
-  width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    color: white;
+    font-size: 1.2em;
+    left: 0;
+    padding: 10px 15px;
+    position: absolute;
+    transition: 0.5s padding;
+    text-align: center;
+    width: 100%;
 }
 
 .imagebox:hover img {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .imagebox:hover .imagebox-desc {
-  padding-bottom: 10%;
+    padding-bottom: 10%;
 }
 
-.item { /* Masonry bricks or child elements */
-    display: inline-block;
-    margin: 0 0 1em;
-    width: 100%;
+/*--------------------------------
+ end of masonry layout - catalog*/
+
+/*------------
+detail page*/
+
+.allcontentdetails {
+    padding: 40px;
 }
 
-.item-image {
-    position: relative;
+.detail-text {
+    width: 30%;
+    height: 600px;
+    overflow-y: auto;
+    float: right;
+    text-align: justify;
+    color: white;
+    background-color: #343434;
+    padding: 10px;
+    border: 1px solid #1f1f1f;
+}
+
+.slider {
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 70%;
+    float: right;
 }
 
 .image-detail {
-    float: right;
-    padding-right: 50px;
-    padding-bottom: 25px;
-    width: 70%;
+    height: 600px;
+    display: inline-block;
+    object-fit: cover;
 }
+.title-detail{
+    text-align: center; color: white; padding-bottom: 15px; padding-top: 10px;}
 
-.allcontentdetails {
-    width: 80%;
-    margin: 0 auto;
-}
 
-/* Masonry on large screens */
+/*------------
+end of detail page*/
+
+/*large screens */
 @media only screen and (min-width: 1024px) {
-  .masonry {
-    column-count: 4;
-  }
+    .masonry {column-count: 4;}
 }
 
-/* Masonry on medium-sized screens */
+/*medium-sized screens */
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
-    .masonry {
+    .masonry { /*3 columns of catalog*/
         column-count: 3;
         padding: 5px;
-        margin: 0;
         column-gap: 5px;
     }
 
-    .image-detail {
-        margin: 0;
-    }
+    .imagebox {margin: 5px;}  /*catalog image*/
 
-    .item-image {
-        margin: 0;
-        padding: 0;
-    }
+    .imagebox .imagebox-desc {font-size: 16px; padding: 2px 5px;} /*catalog title*/
 
-    .imagebox .imagebox-desc {
-        font-size: 16px;
-        padding: 2px 5px;
+    .allcontentdetails {padding: 10px;}  /*detail page*/
 
-    }
+    .slider {width: 100%;}  /*detail page*/
+
+    .detail-text {width: 100%;}  /*detail page*/
 }
 
-/* Masonry on small screens */
+/*small screens */
 @media only screen and (max-width: 767px) {
-  .masonry {
-    column-count: 2;
-    padding: 1px;
-    margin:0;
-    column-gap: 2px;
-  }
-    .image-detail{
-        margin: 0;
+    .masonry { /*2 columns of catalog*/
+        column-count: 2;
+        padding: 1px;
+        column-gap: 2px;
     }
-    .item-image{
-        margin: 0;
-        padding: 0;
-    }
-    .imagebox .imagebox-desc {
-        font-size: 16px;
-        padding: 2px 5px;
 
-}
-    .detail-text{
-    width: 100%;
+    .imagebox {margin: 2px;}  /*catalog image*/
 
-}
+    .imagebox .imagebox-desc {font-size: 16px; padding: 2px 5px;}  /*catalog title*/
 
+    .allcontentdetails {padding: 0;}  /*detail page*/
+
+    .slider {width: 100%;}  /*detail page*/
+
+    .image-detail {height: 300px;}  /*detail page slider*/
+
+    .detail-text {width: 100%; height: 100%; padding-bottom: 80px}  /*detail page*/
+
+    .title-detail{font-size: 24px; padding-bottom: 10px; padding-top: 5px;}
 }
