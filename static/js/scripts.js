@@ -1,27 +1,38 @@
 $(document).ready(function () {
-    jQuery(".slider-child").draggable({
-    cursor: "move",
-    containment: "parent",
-    stop: function() {
-      if(jQuery(".slider-child").position().left < 1)
-          jQuery(".slider-child").css("left", "720px");
-    }
+
+const slider = $(".slider-child");
+slider
+  .slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  variableWidth: true,
+
+          responsive: [
+        {
+            breakpoint: 767,
+             settings: {
+                    centerMode:true,
+                    arrows:false,
+                    autoplay: true,
+                    autoplaySpeed: 4000,
+                }
+        }
+    ]
+  });
+
+
+slider.on('wheel', (function(e) {
+  e.preventDefault();
+
+
+  if (e.originalEvent.deltaY < 0) {
+    $(this).slick('slickNext');
+  } else {
+    $(this).slick('slickPrev');
+  }
+}));
+
+
 });
 
-
-    // $('.selector').mousewheel(function(e, delta) {
-    //     this.scrollLeft -= (delta * 40);
-    //     e.preventDefault();
-    // });
-
-
-  // var APP = APP || {};
-  //
-  // APP.menu = function () {
-  //   $('.sub-menu-trigger').click(function() {
-  //     $('.sub-menu').stop().slideToggle();
-  //   })
-  // };
-  //
-  // APP.menu();
-});

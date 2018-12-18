@@ -10,4 +10,6 @@ class GalleryInline(admin.TabularInline):
 
 @admin.register(Articles)
 class ArticlesAdmin(admin.ModelAdmin):
-    inline = [GalleryInline, ]
+    inlines = [
+        GalleryInline,
+    ]

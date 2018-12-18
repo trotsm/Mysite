@@ -23,45 +23,46 @@
 </head>
 <body class="body">
 <header class="header">
-    <img src="{% static 'mainApp/images/birds-logo.png' %}" alt="logo" class="logo">
+    <a href="../"> <img src="{% static 'mainApp/images/birds-logo.png' %}" alt="logo" class="logo"> </a>
 </header>
 
-<nav class="nav">
-    <ul class="menu">
-        <li><a href="/">Головна</a></li>
-{% comment %}        <li class="sub-menu-trigger">
-            <a href="#" >galleries</a>
-            <ul class="sub-menu">
-                <li><a href="#">item1</a></li>
-                <li><a href="#">item2</a></li>
-                <li><a href="#">item3</a></li>
-                <li><a href="#">item4</a></li>
-                <li><a href="#">item5</a></li>
-                <li><a href="#">item6</a></li>
-            </ul>
-        </li>
 
-        <li><a href="#">features</a></li>
-        <li><a href="#">blog</a></li>
-        <li><a href="#">contact</a></li>
-         <li><a href="/contact">Контакти</a></li>
-         {% endcomment %}
-        <li><a href="/news">Лісові</a></li>
-        <li><a href="/waterfowl">Прибережні</a></li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="../"> <img src="{% static 'mainApp/images/birds-logo.png' %}" alt="logo-mobile" class="logo-mobile"> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav justify-content-center flex-fill ">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Головна <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Тварини</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Птахи
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/news">Лісові</a>
+          <a class="dropdown-item" href="/waterfowl">Прибережні</a>
+{#          <div class="dropdown-divider"></div>#}
+{#          <a class="dropdown-item" href="#">Something else here</a>#}
+        </div>
+      </li>
     </ul>
+{#    <form class="form-inline my-2 my-lg-0">#}
+{#      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">#}
+{#      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>#}
+{#    </form>#}
+  </div>
 </nav>
 
 <div class="content">
 
-    <div id="carousel" class="carousel slide " data-ride="carousel" data-interval="4000">
-
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel" data-slide-to="1"></li>
-    <li data-target="#carousel" data-slide-to="2"></li>
-  </ul>
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
 
   <!-- The slideshow -->
   <div class="carousel-inner">
@@ -101,7 +102,6 @@
 
   </footer>
 </div>
-
 </body>
 </html>
 

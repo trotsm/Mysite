@@ -12,5 +12,6 @@ class Articles(models.Model):
 
 
 class Gallery(models.Model):
-    image_detail = models.ImageField(upload_to='gallery')
     articles = models.ForeignKey(Articles, on_delete=models.CASCADE, related_name='images')
+    image_detail = models.ImageField(upload_to='gallery')
+
