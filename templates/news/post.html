@@ -16,6 +16,7 @@
 
 </head>
 <body class="body">
+
 <header class="header">
     <a href="../"><img src="{% static 'mainApp/images/birds-logo.png' %}" alt="logo" class="logo"></a>
 </header>
@@ -53,8 +54,8 @@
   </div>
 </nav>
 
-<div class="content">
-    <div class="allcontentdetails">
+<div class="detail-content">
+
         <div class="slider">
             <div class="slider-child">
                 {% for image in articles.images.all %}
@@ -73,17 +74,16 @@
             </div>
             <div>{{ articles.post|safe|urlize|linebreaksbr }}</div>
         </div>
-    </div>
 
     <footer class="footer">
         <p class="footerText">
-            За детальною інформацією телефонуйте:<br> (055) 055 555 5555<br>
             &copy; NeedApps 2018
         </p>
 
     </footer>
 
 </div>
+
 <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
 <script src="{% static 'js/jquery-ui.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
